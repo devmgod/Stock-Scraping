@@ -25,12 +25,12 @@
   }
   
   .marker.left {
-    left: 206px; /* Adjust based on actual sizes */
+    left: 31px; /* Adjust based on actual sizes */
     background-color:lightgreen ; /* Background for visibility */
   }
   
   .marker.right {
-    left: 415px; /* Adjust based on actual sizes */
+    left: 233px; /* Adjust based on actual sizes */
     background-color: yellow; /* Background for visibility */
   }
   
