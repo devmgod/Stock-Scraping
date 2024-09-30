@@ -1,0 +1,36 @@
+.thermometer {
+    position: relative;
+    width: 100px;
+    height: 700px; /* Fixed height for positioning calculations */
+    border: 2px solid #333;
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .level {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .marker {
+    position: absolute;
+    padding: 2px 5px; /* Small padding around the text */
+    white-space: nowrap; /* Keep marker text on one line */
+  }
+  
+  .marker.left {
+    left: 206px; /* Adjust based on actual sizes */
+    background-color:lightgreen ; /* Background for visibility */
+  }
+  
+  .marker.right {
+    left: 415px; /* Adjust based on actual sizes */
+    background-color: yellow; /* Background for visibility */
+  }
+  

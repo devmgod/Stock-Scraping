@@ -17,6 +17,7 @@ import RegisterScreen from './screens/RegisterScreen.jsx';
 import ProfileScreen from './screens/ProfileScreen.jsx';
 import Stock from './screens/Stock.jsx';
 import PrivateRoute from './components/PrivateRoute.jsx';
+import Themometer from './screens/themometer.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -27,6 +28,7 @@ const router = createBrowserRouter(
       <Route path='' element={<PrivateRoute />}>
         <Route path='/profile' element={<ProfileScreen />} />
         <Route path='/stock' element={<Stock />} />
+        <Route path='/themometer' element={<Themometer /> } />
       </Route>
     </Route>
   )
